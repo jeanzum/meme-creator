@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme creator</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <input type="file" id="imageInput" accept="image/*">
+        <input type="text" id="topText" placeholder="Texto Superior">
+        <input type="text" id="bottomText" placeholder="Texto inferior">
+        <button id="downloadBtn">Descargar Meme</button>
+
+        <div class="meme-container">
+            <canvas id="memeCanvas"></canvas>
+        </div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
